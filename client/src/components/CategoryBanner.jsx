@@ -25,7 +25,7 @@ export default function CategoryBanner({ categories }) {
     <section className="py-24 px-6" style={{ background: '#101010' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-xs tracking-[0.35em] uppercase mb-4" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>
+          <p className="text-xs tracking-[0.35em] uppercase mb-4" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>
             {t.eyebrow}
           </p>
           <h2 className="text-3xl md:text-5xl font-light mb-5" style={{ fontFamily: "'Cinzel', serif", letterSpacing: '0.06em', color: '#f5f0e8' }}>
@@ -54,7 +54,7 @@ export default function CategoryBanner({ categories }) {
                 <h3 className="text-sm font-medium mb-3 tracking-[0.1em]" style={{ fontFamily: "'Cinzel', serif", color: '#f5f0e8' }}>
                   {categoryLabel(cat.name, lang)}
                 </h3>
-                <span className="text-xs tracking-[0.2em] uppercase" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>
+                <span className="text-xs tracking-[0.2em] uppercase" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>
                   {t.viewCollection} →
                 </span>
               </div>

@@ -66,7 +66,7 @@ function ContactRow({ icon, label, value, delay }) {
       <div className="flex items-center gap-4">
         <div
           className="flex-shrink-0 flex items-center justify-center w-9 h-9 rounded-full"
-          style={{ border: "1px solid rgba(201,169,110,0.35)", background: "rgba(201,169,110,0.07)" }}
+          style={{ border: "1px solid rgba(161,118,29,0.35)", background: "rgba(161,118,29,0.07)" }}
         >
           {icon}
         </div>
@@ -138,10 +138,10 @@ export default function Contact() {
           background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.045'/%3E%3C/svg%3E");
         }
 
-        .corner-tl { position: absolute; top: 12px; left: 12px; width: 18px; height: 18px; border-top: 1px solid rgba(201,169,110,0.5); border-left: 1px solid rgba(201,169,110,0.5); }
-        .corner-tr { position: absolute; top: 12px; right: 12px; width: 18px; height: 18px; border-top: 1px solid rgba(201,169,110,0.5); border-right: 1px solid rgba(201,169,110,0.5); }
-        .corner-bl { position: absolute; bottom: 12px; left: 12px; width: 18px; height: 18px; border-bottom: 1px solid rgba(201,169,110,0.5); border-left: 1px solid rgba(201,169,110,0.5); }
-        .corner-br { position: absolute; bottom: 12px; right: 12px; width: 18px; height: 18px; border-bottom: 1px solid rgba(201,169,110,0.5); border-right: 1px solid rgba(201,169,110,0.5); }
+        .corner-tl { position: absolute; top: 12px; left: 12px; width: 18px; height: 18px; border-top: 1px solid rgba(161,118,29,0.5); border-left: 1px solid rgba(161,118,29,0.5); }
+        .corner-tr { position: absolute; top: 12px; right: 12px; width: 18px; height: 18px; border-top: 1px solid rgba(161,118,29,0.5); border-right: 1px solid rgba(161,118,29,0.5); }
+        .corner-bl { position: absolute; bottom: 12px; left: 12px; width: 18px; height: 18px; border-bottom: 1px solid rgba(161,118,29,0.5); border-left: 1px solid rgba(161,118,29,0.5); }
+        .corner-br { position: absolute; bottom: 12px; right: 12px; width: 18px; height: 18px; border-bottom: 1px solid rgba(161,118,29,0.5); border-right: 1px solid rgba(161,118,29,0.5); }
       `}</style>
 
       <div className="contact-grain min-h-screen" style={{ backgroundColor: "#0d0d0d", color: "#f5f0e8" }}>
@@ -181,23 +181,23 @@ export default function Contact() {
 
             <div
               ref={infoFade.ref}
-              style={{ ...infoFade.style, background: "rgba(13,13,13,0.55)", backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)", border: "1px solid rgba(201,169,110,0.18)", position: "relative" }}
+              style={{ ...infoFade.style, background: "rgba(13,13,13,0.55)", backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)", border: "1px solid rgba(161,118,29,0.18)", position: "relative" }}
               className="p-6"
             >
               <div className="corner-tl" /><div className="corner-tr" /><div className="corner-bl" /><div className="corner-br" />
               <div className="flex flex-col gap-6">
                 <ContactRow icon={<AddressIcon />} label={t.addressLabel} value="4, Rue de la Michodière — 75002 Paris" delay={500} />
-                <div style={{ height: "1px", background: "rgba(201,169,110,0.12)" }} />
+                <div style={{ height: "1px", background: "rgba(161,118,29,0.12)" }} />
                 <ContactRow icon={<PhoneIcon />} label={t.phoneLabel} value="06.34.47.45.17" delay={580} />
                 <ContactRow icon={<PhoneIcon />} label={t.phoneLabel} value="01.70.60.76.56" delay={650} />
-                <div style={{ height: "1px", background: "rgba(201,169,110,0.12)" }} />
+                <div style={{ height: "1px", background: "rgba(161,118,29,0.12)" }} />
                 <ContactRow icon={<EmailIcon />} label={t.emailLabel} value="contact@atelier-harmand.fr" delay={720} />
               </div>
             </div>
 
             <div className="flex items-center justify-center gap-3 mt-8">
               <GoldLineH className="w-8" />
-              <span className="uppercase tracking-[0.4em]" style={{ color: "rgba(201,169,110,0.4)", fontFamily: "'Tenor Sans', sans-serif", fontSize: "0.55rem" }}>
+              <span className="uppercase tracking-[0.4em]" style={{ color: "rgba(161,118,29,0.4)", fontFamily: "'Tenor Sans', sans-serif", fontSize: "0.55rem" }}>
                 {t.maison}
               </span>
               <GoldLineH className="w-8" />
@@ -235,10 +235,10 @@ export default function Contact() {
             </p>
             <div className="flex flex-col gap-7">
               <ContactRow icon={<AddressIcon />} label={t.addressLabel} value="4, Rue de la Michodière, 75002 Paris" delay={250} />
-              <div style={{ height: "1px", background: "rgba(201,169,110,0.1)", marginLeft: "52px" }} />
+              <div style={{ height: "1px", background: "rgba(161,118,29,0.1)", marginLeft: "52px" }} />
               <ContactRow icon={<PhoneIcon />} label={t.phoneLabel} value="06.34.47.45.17" delay={350} />
               <ContactRow icon={<PhoneIcon />} label={t.phoneLabel} value="01.70.60.76.56" delay={400} />
-              <div style={{ height: "1px", background: "rgba(201,169,110,0.1)", marginLeft: "52px" }} />
+              <div style={{ height: "1px", background: "rgba(161,118,29,0.1)", marginLeft: "52px" }} />
               <ContactRow icon={<EmailIcon />} label={t.emailLabel} value="contact@atelier-harmand.fr" delay={450} />
             </div>
           </div>

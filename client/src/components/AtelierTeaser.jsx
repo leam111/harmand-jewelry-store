@@ -38,14 +38,14 @@ export default function AtelierTeaser() {
             </p>
           </div>
           <div className="absolute bottom-6 right-6 z-20 px-5 py-3" style={{ background: '#101010', border: '1px solid rgba(201,168,76,0.3)' }}>
-            <p className="text-xs tracking-[0.25em] uppercase" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>
+            <p className="text-xs tracking-[0.25em] uppercase" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>
               {t.badge}
             </p>
           </div>
         </div>
 
         <div>
-          <p className="text-xs tracking-[0.35em] uppercase mb-6" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>
+          <p className="text-xs tracking-[0.35em] uppercase mb-6" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>
             {t.eyebrow}
           </p>
           <h2
@@ -60,9 +60,9 @@ export default function AtelierTeaser() {
           <Link
             to="/about"
             className="inline-block border text-xs tracking-[0.25em] uppercase px-8 py-3 transition-all duration-300"
-            style={{ borderColor: '#c9a84c', color: '#c9a84c', fontFamily: "'Cinzel', serif" }}
-            onMouseEnter={(e) => { e.currentTarget.style.background = '#c9a84c'; e.currentTarget.style.color = '#080808'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#c9a84c'; }}
+            style={{ borderColor: '#A1761D', color: '#A1761D', fontFamily: "'Cinzel', serif" }}
+            onMouseEnter={(e) => { e.currentTarget.style.background = '#A1761D'; e.currentTarget.style.color = '#080808'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#A1761D'; }}
           >
             {t.cta}
           </Link>

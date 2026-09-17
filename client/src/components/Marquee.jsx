@@ -5,7 +5,7 @@ export default function Marquee({ text }) {
   const content = text[lang];
 
   return (
-    <div className="overflow-hidden py-3" style={{ background: '#c9a84c' }}>
+    <div className="overflow-hidden py-3" style={{ background: '#A1761D' }}>
       <div className="flex whitespace-nowrap" style={{ animation: 'marquee 22s linear infinite' }}>
         {Array.from({ length: 8 }).map((_, i) => (
           <span

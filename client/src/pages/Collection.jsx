@@ -45,7 +45,7 @@ export default function Collection() {
     <div className="min-h-screen" style={{ backgroundColor: '#101010' }}>
 
       <div className="px-6 pt-28 sm:pt-36 pb-16 text-center" style={{ background: '#080808', borderBottom: '1px solid #2a2a2a' }}>
-        <p className="text-xs tracking-[0.35em] uppercase mb-4" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>
+        <p className="text-xs tracking-[0.35em] uppercase mb-4" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>
           {t.eyebrow}
         </p>
         <h1 className="text-4xl md:text-6xl font-light mb-5" style={{ fontFamily: "'Cinzel', serif", letterSpacing: '0.08em', color: '#f5f0e8' }}>
@@ -64,9 +64,9 @@ export default function Collection() {
               className="whitespace-nowrap text-xs tracking-[0.2em] uppercase px-5 py-2 border transition-all duration-200"
               style={{
                 fontFamily: "'Cinzel', serif",
-                background: activeCategory === cat ? '#c9a84c' : 'transparent',
+                background: activeCategory === cat ? '#A1761D' : 'transparent',
                 color: activeCategory === cat ? '#080808' : '#7a7060',
-                borderColor: activeCategory === cat ? '#c9a84c' : '#2a2a2a',
+                borderColor: activeCategory === cat ? '#A1761D' : '#2a2a2a',
                 fontWeight: activeCategory === cat ? 600 : 400,
               }}
             >

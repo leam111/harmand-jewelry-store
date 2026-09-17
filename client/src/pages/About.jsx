@@ -87,7 +87,7 @@ export default function About() {
       <section className="py-24 px-6" style={{ background: '#101010' }}>
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-xs tracking-[0.35em] uppercase mb-6" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>{t.foundedLabel}</p>
+            <p className="text-xs tracking-[0.35em] uppercase mb-6" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>{t.foundedLabel}</p>
             <h2 className="text-3xl md:text-4xl font-light mb-6 leading-snug" style={{ fontFamily: "'Cinzel', serif", letterSpacing: '0.05em', color: '#f5f0e8' }}>{t.founderName}</h2>
             <p className="text-sm leading-7" style={{ color: '#d4c9b0' }}>{t.foundingText}</p>
           </div>
@@ -100,15 +100,15 @@ export default function About() {
       <section className="py-16 px-6" style={{ background: '#080808', borderTop: '1px solid #2a2a2a', borderBottom: '1px solid #2a2a2a' }}>
         <div className="max-w-4xl mx-auto grid grid-cols-3 gap-6 text-center">
           <div>
-            <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>20+</p>
+            <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>20+</p>
             <p className="text-xs tracking-[0.2em] uppercase" style={{ color: '#7a7060' }}>{t.statsYears}</p>
           </div>
           <div>
-            <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>2023</p>
+            <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>2023</p>
             <p className="text-xs tracking-[0.2em] uppercase" style={{ color: '#7a7060' }}>{t.statsFounded}</p>
           </div>
           <div>
-            <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>7</p>
+            <p className="text-3xl md:text-4xl font-light mb-2" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>7</p>
             <p className="text-xs tracking-[0.2em] uppercase" style={{ color: '#7a7060' }}>{t.statsTechniques}</p>
           </div>
         </div>
@@ -117,12 +117,12 @@ export default function About() {
       <section className="py-24 px-6" style={{ background: '#101010' }}>
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           <div className="p-8" style={{ background: '#080808', border: '1px solid #2a2a2a' }}>
-            <Target size={22} style={{ color: '#c9a84c' }} className="mb-5" />
+            <Target size={22} style={{ color: '#A1761D' }} className="mb-5" />
             <h3 className="text-xl mb-4" style={{ fontFamily: "'Cinzel', serif", color: '#f5f0e8', letterSpacing: '0.03em' }}>{t.visionTitle}</h3>
             <p className="text-sm leading-7" style={{ color: '#d4c9b0' }}>{t.visionText}</p>
           </div>
           <div className="p-8" style={{ background: '#080808', border: '1px solid #2a2a2a' }}>
-            <Heart size={22} style={{ color: '#c9a84c' }} className="mb-5" />
+            <Heart size={22} style={{ color: '#A1761D' }} className="mb-5" />
             <h3 className="text-xl mb-4" style={{ fontFamily: "'Cinzel', serif", color: '#f5f0e8', letterSpacing: '0.03em' }}>{t.missionTitle}</h3>
             <p className="text-sm leading-7" style={{ color: '#d4c9b0' }}>{t.missionText}</p>
           </div>
@@ -132,13 +132,13 @@ export default function About() {
       <section className="py-24 px-6" style={{ background: '#080808' }}>
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-xs tracking-[0.35em] uppercase mb-4" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>{t.expertiseLabel}</p>
+            <p className="text-xs tracking-[0.35em] uppercase mb-4" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>{t.expertiseLabel}</p>
             <h2 className="text-3xl md:text-4xl font-light" style={{ fontFamily: "'Cinzel', serif", letterSpacing: '0.05em', color: '#f5f0e8' }}>{t.expertiseHeading}</h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {techniques.map((tech) => (
               <div key={tech.title} className="p-6" style={{ background: '#101010', border: '1px solid #2a2a2a' }}>
-                <Gem size={18} style={{ color: '#c9a84c' }} className="mb-4" />
+                <Gem size={18} style={{ color: '#A1761D' }} className="mb-4" />
                 <h4 className="text-sm mb-3 tracking-[0.05em]" style={{ fontFamily: "'Cinzel', serif", color: '#f5f0e8' }}>{tech.title}</h4>
                 <p className="text-xs leading-6" style={{ color: '#7a7060' }}>{tech.desc}</p>
               </div>
@@ -149,7 +149,7 @@ export default function About() {
 
       <section className="py-24 px-6 text-center" style={{ background: '#101010' }}>
         <div className="max-w-2xl mx-auto">
-          <Sparkles size={22} style={{ color: '#c9a84c' }} className="mx-auto mb-6" />
+          <Sparkles size={22} style={{ color: '#A1761D' }} className="mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-light mb-6" style={{ fontFamily: "'Cinzel', serif", letterSpacing: '0.05em', color: '#f5f0e8' }}>{t.innovationHeading}</h2>
           <p className="text-sm leading-7" style={{ color: '#d4c9b0' }}>{t.innovationText}</p>
         </div>
@@ -158,12 +158,12 @@ export default function About() {
       <section className="py-24 px-6" style={{ background: '#080808', borderTop: '1px solid #2a2a2a' }}>
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
           <div>
-            <MapPin size={20} style={{ color: '#c9a84c' }} className="mb-4" />
+            <MapPin size={20} style={{ color: '#A1761D' }} className="mb-4" />
             <h3 className="text-lg mb-4" style={{ fontFamily: "'Cinzel', serif", color: '#f5f0e8', letterSpacing: '0.03em' }}>{t.locationTitle}</h3>
             <p className="text-sm leading-7" style={{ color: '#d4c9b0' }}>{t.locationText}</p>
           </div>
           <div>
-            <Users size={20} style={{ color: '#c9a84c' }} className="mb-4" />
+            <Users size={20} style={{ color: '#A1761D' }} className="mb-4" />
             <h3 className="text-lg mb-4" style={{ fontFamily: "'Cinzel', serif", color: '#f5f0e8', letterSpacing: '0.03em' }}>{t.teamTitle}</h3>
             <p className="text-sm leading-7" style={{ color: '#d4c9b0' }}>{t.teamText}</p>
           </div>

@@ -2,12 +2,12 @@ import { useState, useEffect, useRef } from "react";
 import { useLanguage } from "../context/LanguageContext";
 import "./slideshow.css";
 
-import l1 from '../assets/1.png'
-import l2 from '../assets/2.png'
-import l3 from '../assets/3.png'
-import l4 from '../assets/4.png'
-import l5 from '../assets/5.png'
-import l6 from '../assets/6.png'
+import l1 from '../assets/1.jpg'
+import l2 from '../assets/2.jpg'
+import l3 from '../assets/3.jpg'
+import l4 from '../assets/4.jpg'
+import l5 from '../assets/5.jpg'
+import l6 from '../assets/6.jpg'
 
 const slides = [
   {

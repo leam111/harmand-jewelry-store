@@ -52,7 +52,7 @@ export default function Footer() {
 
         {/* Pages */}
         <div>
-          <p className="text-xs tracking-[0.3em] uppercase mb-5" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>
+          <p className="text-xs tracking-[0.3em] uppercase mb-5" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>
             {t.pages}
           </p>
           <div className="flex flex-col gap-3">
@@ -62,7 +62,7 @@ export default function Footer() {
                 onClick={() => handleNav(path)}
                 className="text-left text-xs tracking-[0.15em] uppercase transition-colors duration-300"
                 style={{ color: '#7a7060', background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}
-                onMouseEnter={(e) => e.currentTarget.style.color = '#c9a84c'}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#A1761D'}
                 onMouseLeave={(e) => e.currentTarget.style.color = '#7a7060'}
               >
                 {NAV_LABELS[lang][key]}
@@ -73,7 +73,7 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <p className="text-xs tracking-[0.3em] uppercase mb-5" style={{ fontFamily: "'Cinzel', serif", color: '#c9a84c' }}>
+          <p className="text-xs tracking-[0.3em] uppercase mb-5" style={{ fontFamily: "'Cinzel', serif", color: '#A1761D' }}>
             {t.contact}
           </p>
           <div className="flex flex-col gap-2 text-xs" style={{ color: '#7a7060' }}>
