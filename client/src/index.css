@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-gold: #A1761D;
+  --color-gold-light: #C99E45;
+  --color-gold-dark: #6E4F13;
+  --color-obsidian: #080808;
+  --color-charcoal: #101010;
+  --color-ash: #1c1c1c;
+  --color-smoke: #2a2a2a;
+  --color-cream: #f5f0e8;
+  --color-warm: #d4c9b0;
+  --color-muted: #7a7060;
+  --font-display: 'Cinzel', serif;
+  --font-body: 'Raleway', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #080808;
+  color: #f5f0e8;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #A1761D #1c1c1c;
+}
+*::-webkit-scrollbar { width: 4px; }
+*::-webkit-scrollbar-track { background: #1c1c1c; }
+*::-webkit-scrollbar-thumb { background-color: #A1761D; }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

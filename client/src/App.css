@@ -1,0 +1,8 @@
+a {
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+}
