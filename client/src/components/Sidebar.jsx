@@ -11,7 +11,7 @@ function Sidebar({ onLogout }) {
 
   return (
     <aside
-      className="w-56 flex-shrink-0 flex flex-col justify-between py-8"
+      className="w-56 fixed top-0 left-0 h-screen flex flex-col justify-between py-8"
       style={{ background: '#FFFFFF', borderRight: '1px solid #E8E1D3' }}
     >
       <div>

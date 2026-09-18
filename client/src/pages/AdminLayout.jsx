@@ -11,9 +11,9 @@ function AdminLayout() {
   }
 
   return (
-    <div className="min-h-screen flex" style={{ backgroundColor: '#FAF7F2' }}>
+    <div style={{ backgroundColor: '#FAF7F2' }}>
       <Sidebar onLogout={() => setIsLoggedIn(false)} />
-      <div className="flex-1 px-8 sm:px-12 py-10">
+      <div className="ml-56 px-8 sm:px-12 py-10 min-h-screen">
         <Outlet />
       </div>
     </div>
